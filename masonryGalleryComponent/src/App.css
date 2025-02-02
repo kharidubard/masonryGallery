@@ -5,22 +5,3 @@
   background: #1b1b1b;
 }
 
-@keyframes draw-border {
-  0% {
-    clip-path: inset(0 100% 100% 0);
-  }
-  25% {
-    clip-path: inset(0 0 100% 0);
-  }
-  50% {
-    clip-path: inset(0 0 0 100%);
-  }
-  100% {
-    clip-path: inset(0 0 0 0);
-  }
-}
-
-.animate-draw-border {
-  animation: draw-border 0.4s ease-out forwards;
-}
-
